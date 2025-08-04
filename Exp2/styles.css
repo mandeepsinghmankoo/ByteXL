@@ -1,0 +1,47 @@
+.container {
+            min-width: 30%;
+            background-color: blur;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            box-shadow: 10px 10px 20px 15px rgba(15, 14, 14, 0.2);
+            border-radius: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #A0D2EB;
+            background-image: linear-gradient(to bottom, #dfdde7 0%, #9fa3f0  51%, #dfdde7  100%);
+        }
+
+        .rupee {
+            font-size: 50px;
+            font-weight: 700;
+            color: green;
+        }
+
+        .btn {
+            padding: 15px;
+            width: 80%;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: medium;
+            color: white;
+        }
+
+        .dep {
+            background-color: rgb(44, 190, 44);
+        }
+
+        .with {
+            background-color: rgb(189, 5, 5);
+        }
